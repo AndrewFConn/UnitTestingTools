@@ -1,4 +1,6 @@
-## This is a simple utility for Mocking functions (and objects) in C++.
+# UnitTestingTools/Mocker
+
+This is a simple utility for Mocking functions (and objects) in C++.
 
 ## Building the mocker
 You should be able to build MockerTest by just running:
