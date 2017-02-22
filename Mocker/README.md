@@ -14,13 +14,15 @@ MockerTest.cpp provides a sample that can be executed on most *nix-x86/x64 syste
 Since the Mocker is using x86 or x64 instructions directly, there is no way to run this on other architectures.
 
 Here is some sample output:
-    $ ./MockerTest
-    Calling foo without the mock
-    In foo.
-    Calling foo with the mock.
-    In foo_mock.
-    Calling foo after deleting the mock.
-    In foo.
+```
+$ ./MockerTest
+Calling foo without the mock
+In foo.
+Calling foo with the mock.
+In foo_mock.
+Calling foo after deleting the mock.
+In foo.
+```
 
 ## Using the Mocker
 
